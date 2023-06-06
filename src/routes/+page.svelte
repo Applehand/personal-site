@@ -1,2 +1,13 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+
+</script>
+
+<h1>applehand's orchard</h1>
+
+<p>here's some of my <a href="/projects">projects</a> and stuff.</p>
+
+<style>
+    h1 {
+        text-align: center;
+    }
+</style>
