@@ -19,8 +19,8 @@
         <li>
             <a href="/stuff">stuff</a>
         </li>
-        <li id="rss">
-            <a href="/rss.xml" target="_blank">rss</a>
+        <li id="feed">
+            <a href="/feed">feed</a>
         </li>
     </ul>
     
@@ -53,7 +53,7 @@
             margin-block: 0;
         }
 
-        #rss {
+        #feed {
         margin-left: 5rem;
         }
     }

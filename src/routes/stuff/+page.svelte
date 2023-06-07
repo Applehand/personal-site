@@ -1,1 +1,9 @@
-<h1>stuffs</h1>
+<script>
+    import Posts from "../../lib/posts.svelte";
+    import { setContext } from 'svelte';
+
+    setContext('currentPage', 'stuff')
+
+</script>
+
+<Posts />
