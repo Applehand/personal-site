@@ -3,14 +3,19 @@
     import { formatDate } from '$lib/utils';
     import { getContext } from 'svelte';
 
+    // Get the current page context from the parent component
     const context = getContext('currentPage')
 
+    // Initialize an empty array to store the posts
     let posts = [];
 
+    // Perform actions when the component is mounted
     onMount(async () => {
+        // Fetch the posts data from the API
         const response = await fetch('api/posts');
         posts = await response.json();
     });
+
 </script>
 
 <h1>{context}</h1>
@@ -45,8 +50,9 @@
     }
 
     .title {
-        font-size: var(--font-size-fluid-3);
+        font-size: var(--font-size-fluid-2);
         text-transform: capitalize;
+        margin-top: 2rem;
     }
 
     .date {

@@ -14,7 +14,7 @@
   <!-- Title -->
 	<hgroup>
 		<h1>{data.meta.title}</h1>
-		<p>Published at {formatDate(data.meta.date)}</p>
+		<p>Published on {formatDate(data.meta.date)}</p>
 	</hgroup>
 
   <!-- Tags -->
@@ -41,7 +41,7 @@
 	}
 
 	h1 + p {
-		margin-top: var(--size-2);
+		margin-top: var(--size-1);
 		color: var(--text-2);
 	}
 
@@ -56,4 +56,5 @@
 		padding: var(--size-2) var(--size-3);
 		border-radius: var(--radius-round);
 	}
+
 </style>
